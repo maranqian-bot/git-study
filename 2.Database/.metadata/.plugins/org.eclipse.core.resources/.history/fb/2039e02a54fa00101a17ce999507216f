@@ -69,41 +69,6 @@ AND last_name = (SELECT last_name FROM employees WHERE hire_date = '1993-02-19'
  
  
  
- SELECT *
- FROM salaries s 
- WHERE (emp_no, salary) IN (SELECT emp_no, max(salary)
-                            FROM salaries
-                            GROUP BY emp_no);
- 
- SELECT emp_no, title, to_date
- FROM titles t 
- WHERE (emp_no, to_date) IN (SELECT emp_no, max(to_date) 
-                             FROM titles 
-                             GROUP BY emp_no);
- 
- SELECT * FROM salaries s;
- 
- SELECT emp_no, to_date
- FROM salaries s 
- WHERE (emp_no, to_date) IN (SELECT emp_no, max(to_date)
-                             FROM salaries
-                             GROUP BY emp_no);
- 
- SELECT * FROM dept_emp;
- 
- SELECT emp_no, dept_no,from_date
- FROM dept_emp
- WHERE (emp_no,from_date) IN (SELECT emp_no, min(from_date)
-                                        FROM dept_emp
-                                        GROUP BY emp_no); 
- 
- 
- SELECT *
- FROM (SELECT de.dept_no, avg(s.salary)
-       FROM dept_emp de
-       JOIN salaries s ON dept_emp.emp_no = salaries.emp_no 
-       GROUP BY dept_no)a;
- 
 
 
 

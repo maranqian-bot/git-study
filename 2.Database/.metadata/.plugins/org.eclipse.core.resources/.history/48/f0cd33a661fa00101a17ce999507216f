@@ -83,7 +83,7 @@ WHERE emp_no = (SELECT max(emp_no FROM employees)
 > 다종행 비교 연산자 : IN , ALL, ANY ...
 - 예시) SELECT emp_no , salary FROM salaries
 WHERE salary IN (SELECT salary FROM salaries)
- 
+
 16. 다중열 다중행 서브쿼리
 - 결과 값의 데이터와 컬럼의 개수가 2개 이상인 서브쿼리
 - 예시) SELECT emp_no, title, to_date from titles 
