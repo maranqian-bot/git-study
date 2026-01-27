@@ -1,0 +1,36 @@
+CREATE TABLE position(
+          id varchar(50) NOT NULL,
+          name varchar(50), position_name);
+
+
+
+-- Q11.
+SELECT name , dept FROM employees;
+
+-- Q12.
+INSERT INTO employees (name, age, gender, dept, salary)
+             VALUES('짱구', 5, 'M', '개발팀', 9800);
+INSERT INTO position(position_name)
+             VALUES('팀장');
+
+-- Q13.
+UPDATE employees 
+SET salary = 3500
+WHERE id = 1;
+
+-- Q14.
+DELETE FROM employees
+WHERE id = 1;
+
+
+-- Q15.
+SELECT name FROM employees
+WHERE dept = '개발팀'
+AND salary >= 3000;
+
+
+-- Q16.
+SELECT name FROM employees
+WHERE dept = '기획팀'
+OR dept = '마케팅팀';
+

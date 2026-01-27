@@ -12,8 +12,8 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="DBeaver.ScriptSelectorPopup">
-		<item key="DIALOG_X_ORIGIN" value="691"/>
-		<item key="DIALOG_Y_ORIGIN" value="282"/>
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="280"/>
 		<item key="DIALOG_WIDTH" value="555"/>
 		<item key="DIALOG_HEIGHT" value="364"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -34,6 +34,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="242"/>
 		<item key="DIALOG_WIDTH" value="326"/>
 		<item key="DIALOG_HEIGHT" value="423"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DBeaver.StandardErrorDialog">
+		<item key="showDetails" value="false"/>
+		<item key="DIALOG_X_ORIGIN" value="493"/>
+		<item key="DIALOG_Y_ORIGIN" value="421"/>
+	</section>
+	<section name="DBeaver.SelectDataSourceDialog">
+		<item key="DIALOG_X_ORIGIN" value="547"/>
+		<item key="DIALOG_Y_ORIGIN" value="61"/>
+		<item key="DIALOG_WIDTH" value="274"/>
+		<item key="DIALOG_HEIGHT" value="687"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

@@ -108,6 +108,24 @@ SELECT * FROM board_foregin;
 DELETE FROM member_primary WHERE member_primary_id = 1;
 SELECT * FROM member_primary;
 
+#################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
