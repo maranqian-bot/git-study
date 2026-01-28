@@ -2,7 +2,7 @@ package kr.co.koreait;
 
 import java.util.Scanner;
 
-public class Ex03_switch {
+public class Ex04_switch {
 
 	public static void main(String[] args) {
 		// switch문
