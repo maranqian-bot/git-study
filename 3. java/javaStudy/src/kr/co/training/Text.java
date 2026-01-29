@@ -2,7 +2,7 @@ package kr.co.training;
 
 import java.util.Scanner;
 
-public class EX666 {
+public class Text {
 
 	public static void main(String[] args) {
 //		Q9. 점수와 결석 여부를 입력받아 결과 출력
